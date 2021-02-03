@@ -5,3 +5,6 @@ The activity data is acquired by two wearable IMUs mounted on the thigh and shan
 In order to perform rehabilitation monitoring on the gait function of TKR patients, we designed a comparative test to obtain gait activity data of patients and healthy subjects. Before the experiment, participants will be instructed so that the experiment can be completed well. During the data collection period, patients are uniformly required to use walking aids to prevent falls. Between two consecutive experiments, the patient is allowed to rest for few minutes, and the relevant operations are performed by a professional physical therapist.  
 
 Participants need to wear two wearable IMUs on both left and right sides, as shown in Fig. 2. When the walking command is given, the participants are asked walk a distance of 10 meters in a straight line and maintain their own rhythm. The gait activities are repeated twice for each participant.
+
+# Original data description
+The format of the original gait activity data is .bsn, which can be read and processed through the BSN_demo.m code. The original nine-axis sensor data will be obtained, including three-axis acceleration, gyroscope and magnetometer signals.
